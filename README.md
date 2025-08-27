@@ -5,6 +5,13 @@ Easily find affordable flights by entering origin, destination, travel date, and
 The program displays airline, departure & arrival times, and total price in INR.
 
 ---
+## 📽️ DEMO
+
+
+https://github.com/user-attachments/assets/73bc3871-137d-4deb-9dc6-fd22b01802e7
+
+
+---
 
 ## 🚀 Features
 - 🔍 Search flights by origin & destination airport codes  
@@ -85,6 +92,7 @@ Cheap Travel Plan.py
 ---
 
 ## 📌 Future Enhancements
+
 
 * 🌍 Multi-currency support (USD, EUR, AED, etc.)
 * ⏱️ Filters for cheapest/fastest flights
