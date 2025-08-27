@@ -47,8 +47,15 @@ cd Flightly
 pip install amadeus
 ```
 
-3. **Add API credentials**
-   Edit `flight_app.py` and replace with your own Amadeus credentials:
+3. **Get Amadeus API Credentials**
+
+* Go to [Amadeus for Developers](https://developers.amadeus.com) and **sign up** for a free account.
+* After logging in, go to **My Apps → Create New App**.
+* Give your app a name (e.g., Flightly) and select **Flight Offers Search API**.
+* Copy your **API Key (Client ID)** and **API Secret (Client Secret)**.
+
+4. **Add API credentials**
+   Edit `flight_app.py` and replace with your own credentials:
 
 ```python
 amadeus = Client(
@@ -57,7 +64,7 @@ amadeus = Client(
 )
 ```
 
-4. **Run the project**
+5. **Run the project**
 
 ```bash
 python flight_app.py
@@ -91,4 +98,3 @@ python flight_app.py
 Contributions are welcome!
 Please fork the repository and submit a pull request for improvements.
 
----
