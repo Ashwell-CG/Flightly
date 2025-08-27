@@ -25,7 +25,7 @@ The program displays airline, departure & arrival times, and total price in INR.
 ```
 
 Flightly/
-│── flight\_app.py        # Main script
+│── Cheap Travel Plan.py        # Main script
 │── README.md            # Documentation
 │── .gitignore           # Ignore sensitive files
 
@@ -55,7 +55,7 @@ pip install amadeus
 * Copy your **API Key (Client ID)** and **API Secret (Client Secret)**.
 
 4. **Add API credentials**
-   Edit `flight_app.py` and replace with your own credentials:
+   Edit `Cheap Travel Plan.py` and replace with your own credentials:
 
 ```python
 amadeus = Client(
@@ -67,7 +67,7 @@ amadeus = Client(
 5. **Run the project**
 
 ```bash
-python flight_app.py
+Cheap Travel Plan.py
 ```
 
 ---
